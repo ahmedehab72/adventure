@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advent.css">
+    <title>adventure</title>
+</head>
+<body>
+    <header class="navbar">
+       <h2 class="logo"><a href="#" > adventure</a></h2>
+        <ul class="nav-links">
+            <li><a href="#"  > home </a></li>
+            <li><a href="#about"> about  </a></li>
+            <li><a href="#services" > services </a></li>
+            <li><a href="#projects" > projects </a></li>
+            <li><a href="#contact" class="active"> contact us </a></li>
+        </ul>
+        <img src="pngegg.png " alt="" class="menu-btn">
+
+    </header>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn');
+        const navlinks=document.querySelector('.nav-links')
+          
+        menuBtn.addEventListener('click' ,()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    <nav class="homee">
+    <div class="main">
+        <h2>Explore the wonderful world</h2>
+        <br>
+        <div class="line"> </div>
+        <h1>A wonderful world</h1>
+        <a href="#" class="ctn"> learn more  </a>
+    </div>
+    </nav>
+   
+
+    <section class="events"  id="about">
+        <div class="title"> 
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="pexels.jpg" alt="">
+                <h4>Everest camp trek </h4>
+                <p>sit amet consectetur adipisicing elit Eaquelo Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="pexels-dreamlens-production-2450296.jpg" alt="">
+                <h4>Walking </h4>
+                <p>sit amet consectetur adipisicing elit Eaquelo Lorem ipsum dolor sit amet </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="explore" id="services">
+       <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+
+        <div class="line"></div>
+         <p> Ipsum dolor sit amet Lorem ipsum dolor  consectetur adipisicing <br> amet consectetur adipisicing consectetur adipisicing elit. Nesciunt unde <br> ipsum dolor sit amet consectetur adipisicing elit. expedita porro <br>non dicta, modi fuga qui.</p>
+         <a href="#" class="ctn">Learn More</a>
+       </div>
+    </section>
+
+    <section class="tours" id="projects">
+        <div class="row">
+            <div class="content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit, amet  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, voluptate.consectetur adipisicing elit. Corrupti optio fugit aliquam, eveniet at numquam incidunt</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="image-col">
+                <div class="image-gallery">
+                    <img src="a.jpg"  alt="">
+                    <img src="s.jpg"  alt="">
+                    <img src="d.jpg"  alt="">
+                    <img src="f.jpg"  alt="">
+                   
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="contact">
+        <p>Copy Write @ 2023 adventures all right reserved</p>
+        <p> A_Ehab@gmail.com</p>
+    </section>
+   
+
+
+</html>
+
+
+
